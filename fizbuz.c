@@ -13,6 +13,8 @@ void fizzbuzz(int a)
 	} else {
 		printf("%d, ", a);
 	}
+	
+	if (a % 10 == 0) printf("\n");
 
 }
 
